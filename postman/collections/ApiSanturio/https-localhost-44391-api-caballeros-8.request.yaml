@@ -1,0 +1,26 @@
+$kind: http-request
+name: https://localhost:44391/api/caballeros
+url: https://localhost:44391/api/caballeros
+method: GET
+body:
+  type: json
+  content: "\r
+
+    \r
+
+    {\r
+
+    \  \"ArmaduraId\": 1,\r
+
+    \  \"Nombre\": \"Armadura de Pegaso\",\r
+
+    \  \"Constelacion\": \"Fuego\"\r
+
+    }\r\n"
+settings:
+  protocolVersion: auto
+  strictSSL: false
+  followRedirects: true
+  disableCookies: false
+  maxResponseSize: 52428800
+order: 19000

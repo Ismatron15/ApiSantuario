@@ -1,0 +1,24 @@
+$kind: http-request
+name: https://localhost:44391/api/armaduras
+url: https://localhost:44391/api/armaduras
+method: POST
+body:
+  type: xml
+  content: "\r
+
+    <Armadura>\r
+
+    \    <ArmaduraId>2</ArmaduraId>\r
+
+    \    <Nombre>Armadura de Pegaso</Nombre>\r
+
+    \    <Constelacion>Pegaso</Constelacion>\r
+
+    </Armadura>\r\n"
+settings:
+  protocolVersion: auto
+  strictSSL: false
+  followRedirects: true
+  disableCookies: false
+  maxResponseSize: 52428800
+order: 7000

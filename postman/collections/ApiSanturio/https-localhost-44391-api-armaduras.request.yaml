@@ -1,0 +1,26 @@
+$kind: http-request
+name: https://localhost:44391/api/armaduras
+url: https://localhost:44391/api/armaduras
+method: PUT
+body:
+  type: json
+  content: "\r
+
+    \r
+
+    {\r
+
+    \  \"ArmaduraId\": 1,\r
+
+    \  \"Nombre\": \"Armadura de Pegaso\",\r
+
+    \  \"Constelacion\": \"Fuego\"\r
+
+    }\r\n"
+settings:
+  protocolVersion: auto
+  strictSSL: false
+  followRedirects: true
+  disableCookies: false
+  maxResponseSize: 52428800
+order: 6000

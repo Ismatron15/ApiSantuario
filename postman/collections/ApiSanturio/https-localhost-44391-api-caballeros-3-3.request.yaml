@@ -1,0 +1,14 @@
+$kind: http-request
+name: https://localhost:44391/api/caballeros/3
+url: https://localhost:44391/api/caballeros/3
+method: PUT
+body:
+  type: json
+  content: '{ "CaballeroId": 1, "Nombre": "Seiya de Pegaso", "Edad": 14 }'
+settings:
+  protocolVersion: auto
+  strictSSL: false
+  followRedirects: true
+  disableCookies: false
+  maxResponseSize: 52428800
+order: 30000
